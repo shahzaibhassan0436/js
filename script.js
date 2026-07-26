@@ -356,4 +356,8 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
     return result;
 }
 
-console.log("dog", "big", "ran", "quickly" )
+console.log("dog", "big", "ran", "quickly");
+
+ // =========================================
+// Word Blanks
+// =========================================
