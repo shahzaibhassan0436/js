@@ -293,4 +293,13 @@ console.log(myStr);
 var firstVariable = "Shahzaib";
 var secondVariable = "Hassan";
 firstVariable += secondVariable;
-console.log(firstVariable)
+console.log(firstVariable);
+
+// =========================================
+// Find length of the Strings
+// =========================================
+
+var lastNameLength = 0;
+var lastName = 'Shahzaib'
+lastNameLength = lastName.length;
+console.log(lastNameLength);
