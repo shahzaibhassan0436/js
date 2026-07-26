@@ -313,3 +313,11 @@ firstName = "Shahzaib";
 
  firstLetterOfFirstName = firstName[0];
  console.log(firstLetterOfFirstName);
+
+ // =========================================
+// String Immutability (Update)
+// =========================================
+
+var myStr = "Rhahzaib Hassan";
+myStr = "Shahzaib Hassan";
+console.log(myStr);
