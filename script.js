@@ -286,3 +286,11 @@ var myName = "Shahzaib";
 var myStr = " My name is " + myName + ", how are you";
 console.log(myStr);
 
+// =========================================
+// Appending Variable to Strings
+// =========================================
+
+var firstVariable = "Shahzaib";
+var secondVariable = "Hassan";
+firstVariable += secondVariable;
+console.log(firstVariable)
