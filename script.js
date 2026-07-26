@@ -232,3 +232,44 @@ console.log(myString);
 var myString = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 console.log(myString);
+
+// =========================================
+// Quoting Strings with Single Quotes
+// =========================================      
+
+var myString = "I am a \"double quoted\" string inside \"double quotes\".";
+
+console.log(myString);
+
+// =========================================
+// Quoting Strings with Single Quotes
+// =========================================                                
+
+var myString = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+console.log(myString);
+
+// =========================================
+// Escape Sequences in Strings
+// =========================================
+
+var myString = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+console.log(myString);
+
+// =========================================
+// Concatenating Strings with Plus Operator
+// =========================================
+
+var ourStr = "I come first. " + "I come second.";
+
+console.log(ourStr);
+
+// =========================================
+// Concatenating Strings with the Plus Equals Operator
+// =========================================
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+console.log(myStr);
