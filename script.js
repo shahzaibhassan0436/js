@@ -329,3 +329,11 @@ console.log(myStr);
 var firstName="Shahzaib";
 var fifthLetterOfFirstName = firstName[4];
 console.log(fifthLetterOfFirstName)
+
+ // =========================================
+// Bracket Notation to find Lasr character in String
+// =========================================
+
+var firstName="Shahzaib";
+var lastLetterOfFirstName = firstName[firstName.length-1];
+console.log(lastLetterOfFirstName)
