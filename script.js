@@ -273,3 +273,16 @@ var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 
 console.log(myStr);
+
+// =========================================
+// Constructing Strings with Variables
+// =========================================
+
+var ourName = "freeCodeCamp";
+var ourStr = " Hello, Our name is " + ourName + ", how are you";
+console.log(ourStr);
+
+var myName = "Shahzaib";
+var myStr = " My name is " + myName + ", how are you";
+console.log(myStr);
+
