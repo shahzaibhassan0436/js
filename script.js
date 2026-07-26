@@ -303,3 +303,13 @@ var lastNameLength = 0;
 var lastName = 'Shahzaib'
 lastNameLength = lastName.length;
 console.log(lastNameLength);
+
+// =========================================
+// Bracket Notation to find first character in the Strings
+// =========================================
+
+var firstLetterOfFirstName = "";
+firstName = "Shahzaib";
+
+ firstLetterOfFirstName = firstName[0];
+ console.log(firstLetterOfFirstName);
