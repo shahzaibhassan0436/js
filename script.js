@@ -345,3 +345,15 @@ console.log(lastLetterOfFirstName)
 var firstName="Shahzaib";
 var lastLetterOfFirstName = firstName[firstName.length-5];
 console.log(lastLetterOfFirstName)
+
+ // =========================================
+// Word Blanks
+// =========================================
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+
+    var result = "";
+    return result;
+}
+
+console.log("dog", "big", "ran", "quickly" )
