@@ -1,0 +1,234 @@
+// =========================================
+// Storing Values with the Assignment Operator
+// =========================================
+
+var a;
+var b = 2;
+
+console.log(a);
+
+a = 7;
+b = a;
+
+console.log(a);
+
+// =========================================
+// Initialized Variables
+// =========================================
+
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+a = a + 1;
+b = b + 5;
+c = c + "String!";
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// =========================================
+// Declaration
+// =========================================
+
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Assignments
+
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = "9000";
+
+console.log(studlyCapVar);
+console.log(properCamelCase);
+console.log(titleCaseOver);
+
+// =========================================
+// Sum
+// =========================================
+
+var sum = 10 + 6;
+console.log(sum);
+
+// =========================================
+// Difference
+// =========================================
+
+var difference = 36 - 20;
+console.log(difference);
+
+// =========================================
+// Multiplication
+// =========================================
+
+var product = 8 * 2;
+console.log(product);
+
+// =========================================
+// Division
+// =========================================
+
+var quotient = 32 / 2;
+console.log(quotient);
+
+// =========================================
+// Incrementing Numbers
+// =========================================
+
+var myVar = 15;
+myVar++;
+
+console.log(myVar);
+
+// =========================================
+// Decrementing Numbers
+// =========================================
+
+myVar = 17;
+myVar--;
+
+console.log(myVar);
+
+// =========================================
+// Decimal Numbers
+// =========================================
+
+var ourDecimal = 16.16;
+var myDecimal = 16.1616;
+
+console.log(ourDecimal);
+console.log(myDecimal);
+
+// =========================================
+// Math with Decimal Numbers
+// =========================================
+
+// Sum
+
+sum = 10.5 + 5.5;
+console.log(sum);
+
+// Difference
+
+difference = 20.5 - 3.5;
+console.log(difference);
+
+// Multiplication
+
+product = 7.5 * 2;
+console.log(product);
+
+// Division
+
+quotient = 33.5 / 2;
+console.log(quotient);
+
+// =========================================
+// Finding a Remainder
+// =========================================
+
+var remainder;
+
+remainder = 11 % 3;
+
+console.log(remainder);
+
+// =========================================
+// Augmented Addition
+// =========================================
+
+a = 3;
+b = 17;
+c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// =========================================
+// Augmented Subtraction
+// =========================================
+
+a = 3;
+b = 17;
+c = 12;
+
+a -= 12;
+b -= 9;
+c -= 7;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// =========================================
+// Augmented Multiplication
+// =========================================
+
+a = 3;
+b = 17;
+c = 12;
+
+a *= 12;
+b *= 9;
+c *= 7;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// =========================================
+// Augmented Division
+// =========================================
+
+a = 3;
+b = 17;
+c = 12;
+
+a /= 12;
+b /= 9;
+c /= 7;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+// =========================================
+// Declare String Variables
+// =========================================
+
+var firstName = "Shahzaib";
+var lastName = "Hassan";
+
+console.log(firstName, lastName);
+
+// =========================================
+// Escaping Literal Quotes
+// =========================================
+
+var myString = "My name is \"Shahzaib\" \"Hassan\"";
+
+console.log(myString);
+
+// =========================================
+// Using Single Quotes
+// =========================================
+
+myString = 'My name is "Shahzaib" "Hassan"';
+
+console.log(myString);
+
+// =========================================
+// Using Single Quotes
+// =========================================
+
+var myString = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+console.log(myString);
