@@ -321,3 +321,11 @@ firstName = "Shahzaib";
 var myStr = "Rhahzaib Hassan";
 myStr = "Shahzaib Hassan";
 console.log(myStr);
+
+ // =========================================
+// Bracket Notation to find Nth character in String
+// =========================================
+
+var firstName="Shahzaib";
+var fifthLetterOfFirstName = firstName[4];
+console.log(fifthLetterOfFirstName)
