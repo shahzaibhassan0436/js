@@ -778,3 +778,25 @@ function testElse(val){
     return result;
 }
 console.log(testElse(6));
+
+// =========================================
+//Else If Statement
+// =========================================
+
+function testElseIf(val){
+
+    if(val>10){
+        result = "Bigger than 5";
+    }
+
+    else if(val<5){
+        return "Smaller than 5";
+    } 
+
+    else {
+    return "Between 5 and 10";
+    }
+    
+    
+}
+console.log(testElseIf(6));
