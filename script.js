@@ -499,3 +499,16 @@ function myLocalScope(){
 }
 
 myLocalScope();
+
+// =========================================
+// Global vs Local Scope in Functions
+// =========================================
+
+var outerWear = "T-Shirt";
+function myOutfit(){
+
+    return outerWear;
+}
+
+console.log(myOutfit());
+
