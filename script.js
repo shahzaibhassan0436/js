@@ -1152,3 +1152,17 @@ var shirtValue = testObj['shirt'];
 
 console.log(hatValue);
 console.log(shirtValue);
+
+// =========================================
+//Accessing Object Properties with Variables
+// =========================================
+
+var testObj = {
+    "12":"ballcap",
+    "16":"jersey",
+    "19":"cleats"
+};
+var playerNumber =16;
+var player = testObj[playerNumber];
+
+console.log(player);
