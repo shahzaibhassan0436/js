@@ -623,3 +623,17 @@ function testEqual(val){
 }
 
 console.log(testEqual(7));
+
+// =========================================
+//Practice Comparing Different Values
+// =========================================
+
+function compareEquality(a, b){
+    if(a === b){
+        return "Equal"
+    }
+    return "Not Equal";
+}
+
+console.log(compareEquality(10, "10"));
+console.log(compareEquality(10, 10));
