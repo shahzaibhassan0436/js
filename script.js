@@ -1069,9 +1069,13 @@ console.log(abTest(2,2));
 console.log(abTest(2,-2));
 
 // =========================================
-//Counting Cards 
+//Counting Cards  iski smgh nhi aee
 // =========================================
 
+
+// =========================================
+//iski smgh nhi aee
+// =========================================
 var count = 0;
 
 function cc(card){
@@ -1106,3 +1110,15 @@ function cc(card){
 
 cc(2); cc('K'); cc(10); cc('K'); cc('A');
 console.log(cc(4));
+
+
+// =========================================
+//Build Javascript Objects
+// =========================================
+
+var ourDog = {
+    "name":"Camper",
+    "legs":"4",
+    "tails":"1",
+    "friends":[],
+};
