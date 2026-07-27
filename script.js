@@ -360,3 +360,5 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
 
 console.log(wordBlanks("dog", "big", "ran", "quickly" ));
 console.log(wordBlanks("cat", "small", "jumps", "quickly" ));
+
+ 
