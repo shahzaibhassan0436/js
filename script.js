@@ -439,3 +439,13 @@ console.log(ourArray);
 // =========================================
 
 var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
+
+// =========================================
+// Write Reusable Code with Functions
+// =========================================
+
+function ourReusableFunction(){
+    console.log("Shahzaib Hassan");
+}
+
+ourReusableFunction();
