@@ -424,3 +424,12 @@ console.log(removedFromArray);
 var ourArray = [1,2,3];
 var removedFromArray = ourArray.shift();
 console.log(removedFromArray);
+
+// =========================================
+// Manipulate Arrays with unShift ()
+// =========================================
+
+var ourArray = [1,2,3];
+ourArray.shift();
+ourArray.unshift(16);
+console.log(ourArray);
