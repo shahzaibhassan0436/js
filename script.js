@@ -596,3 +596,17 @@ function ourTrueOrFalse(isItTrue){
    return "No, It is false";
 }
 console.log(ourTrueOrFalse(true));
+console.log(ourTrueOrFalse(false));
+
+// =========================================
+//Comparison with the Equality Operator
+// =========================================
+
+function testEqual(val){
+    if(val==12){
+        return "Equal"
+    }
+    return "Not Equal";
+}
+
+console.log(testEqual(10));
