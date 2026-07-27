@@ -528,3 +528,17 @@ function timesFive(num){
     return num*5;
 }
 console.log(timesFive(4));
+
+// =========================================
+// Understanding Undefined Value Returned from a Function
+// =========================================
+
+var sum=0;
+function addThree(){
+    sum = sum+3;
+}
+function addFive(){
+    sum +=5;
+}
+addFive();
+addThree();
