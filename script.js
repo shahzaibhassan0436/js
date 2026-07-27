@@ -1182,7 +1182,7 @@ console.log(ourDog);
 
 // =========================================
 //Add New Properties to an Object
-// =========================================\
+// =========================================
 
 var ourDog = {
     "name":"Camper",
@@ -1193,4 +1193,19 @@ var ourDog = {
 ourDog.bark = 'meow meow';
 console.log(ourDog);
 ourDog["bark"]= "baw baw";
+console.log(ourDog);
+
+
+// =========================================
+//Delete Properties from an Object
+// =========================================
+
+var ourDog = {
+    "name":"Camper",
+    "legs":"4",
+    "tails":"1",
+    "friends":["everything"],
+    "bark" :'meow meow'
+};
+delete ourDog.tails;
 console.log(ourDog);
