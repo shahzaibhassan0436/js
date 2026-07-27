@@ -433,3 +433,9 @@ var ourArray = [1,2,3];
 ourArray.shift();
 ourArray.unshift(16);
 console.log(ourArray);
+
+// =========================================
+// Nested Array (Shopping List)
+// =========================================
+
+var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
