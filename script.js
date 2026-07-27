@@ -637,3 +637,16 @@ function compareEquality(a, b){
 
 console.log(compareEquality(10, "10"));
 console.log(compareEquality(10, 10));
+
+// =========================================
+//Comparing with thr Inequality Operator
+// =========================================
+
+function testEqual(val){
+    if(val !=99){
+        return "Not  Equal"
+    }
+    return "Equal";
+}
+
+console.log(testEqual(7));
