@@ -1179,3 +1179,18 @@ var ourDog = {
 };
 ourDog.name = 'Happy Camper';
 console.log(ourDog);
+
+// =========================================
+//Add New Properties to an Object
+// =========================================\
+
+var ourDog = {
+    "name":"Camper",
+    "legs":"4",
+    "tails":"1",
+    "friends":["everything"],
+};
+ourDog.bark = 'meow meow';
+console.log(ourDog);
+ourDog["bark"]= "baw baw";
+console.log(ourDog);
