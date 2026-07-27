@@ -361,4 +361,17 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
 console.log(wordBlanks("dog", "big", "ran", "quickly" ));
 console.log(wordBlanks("cat", "small", "jumps", "quickly" ));
 
- 
+
+// =========================================
+// Store Multiple Values with Arrays
+// =========================================
+
+var ourArray = ["Shahzaib", 16, 16.16];
+console.log(ourArray);
+
+// =========================================
+// Nested Arrays
+// =========================================
+
+var ourArray = [["Shahzaib", 16, 16.16], ["Shahzaib", 16, 16.16]]; 
+console.log(ourArray);
