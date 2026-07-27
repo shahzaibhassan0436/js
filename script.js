@@ -488,3 +488,14 @@ function fun2(){
 
 fun1();
 fun2();
+
+// =========================================
+// Local Scope and Functions
+// =========================================
+
+function myLocalScope(){
+    var myVar = 5;
+    console.log(myVar);
+}
+
+myLocalScope();
