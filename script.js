@@ -585,4 +585,14 @@ function welcomeToBooleans(){
     return true;
 }
 
+// =========================================
+//Conditional Logic with If Statements
+// =========================================
 
+function ourTrueOrFalse(isItTrue){
+   if(isItTrue){
+    return "Yes, It is true";
+   }
+   return "No, It is false";
+}
+console.log(ourTrueOrFalse(true));
