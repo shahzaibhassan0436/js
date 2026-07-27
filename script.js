@@ -681,3 +681,21 @@ function testGreaterThan(val){
 }
 
 console.log(testGreaterThan(99));
+
+// =========================================
+//Comparing with the Greater Than Or Equal To Operator
+// =========================================
+
+function testGreaterThan(val){
+    if(val>=100) {
+        return "100 or Over";
+    }
+
+    if(val>=10){
+        return "10 or over";
+    }
+
+    return "Less than 10";
+}
+
+console.log(testGreaterThan(100));
