@@ -511,7 +511,5 @@ function myOutfit(){
 }
 
 console.log(myOutfit());
+console.log(outerWear);
 
-// =========================================
-// Global vs Local Scope in Functions
-// =========================================
