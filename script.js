@@ -408,3 +408,11 @@ console.log(myData);
 var ourArray = ["Shahzaib", " Hassan", "Dev"];
 ourArray.push(["js", "Learning"]);
 console.log(ourArray); 
+
+// =========================================
+// Manipulate Arrays with pop ()
+// =========================================
+
+var ourArray = [1,2,3];
+var removedFromArray = ourArray.pop()
+console.log(removedFromArray);
