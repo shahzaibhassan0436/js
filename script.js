@@ -1229,3 +1229,23 @@ var lookup ={
  return result;
 }
 console.log(phoneticLookup('bravo'));
+
+// =========================================
+//Testing Objects for Properties
+// =========================================
+
+var ourDog = {
+    "name":"Camper",
+    "legs":"4",
+    "tails":"1",
+};
+function checkObj(checkProp){
+    if(ourDog.hasOwnProperty(checkProp)){
+        return ourDog[checkProp];
+    }
+    else {
+        return "Not Found"
+         }
+}
+console.log(checkObj('name'));
+console.log(checkObj(name));
