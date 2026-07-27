@@ -375,3 +375,11 @@ console.log(ourArray);
 
 var ourArray = [["Shahzaib", 16, 16.16], ["Shahzaib", 16, 16.16]]; 
 console.log(ourArray);
+
+// =========================================
+// Access Array Data with Indexes
+// =========================================
+
+var ourArray = [50,60,70];
+var ourData = ourArray[1];
+console.log(ourData);
