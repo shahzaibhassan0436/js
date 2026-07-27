@@ -760,3 +760,21 @@ function testLogicalOr(val){
     return "Inside";
 }
 console.log(testLogicalOr(28));
+
+// =========================================
+//Else Statement
+// =========================================
+
+function testElse(val){
+    var result = "";
+
+    if(val>5){
+        result = "Bigger than 5";
+    }
+
+    else{
+        result = "5 or smaller";
+    }
+    return result;
+}
+console.log(testElse(6));
