@@ -416,3 +416,11 @@ console.log(ourArray);
 var ourArray = [1,2,3];
 var removedFromArray = ourArray.pop()
 console.log(removedFromArray);
+
+// =========================================
+// Manipulate Arrays with Shift ()
+// =========================================
+
+var ourArray = [1,2,3];
+var removedFromArray = ourArray.shift();
+console.log(removedFromArray);
