@@ -1249,3 +1249,24 @@ function checkObj(checkProp){
 }
 console.log(checkObj('name'));
 console.log(checkObj(name));
+
+// =========================================
+//Manipulating Complex Objects
+// =========================================\
+
+
+var myMusic = [
+{
+    "artist": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "formats":[ "CD", "8T", "LP"],
+    "gold": true 
+},
+    {
+        "artist": "Shahzaib Hassan",
+        "title": "kuch bhi nhi",
+        "release_year": "2006",
+        "formats":["a"]
+    }
+];
