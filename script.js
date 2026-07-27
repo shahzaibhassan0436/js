@@ -855,3 +855,35 @@ console.log(testSize(9));
 console.log(testSize(14));
 console.log(testSize(19));
 console.log(testSize(25));
+
+// =========================================
+//Golf Code
+// =========================================
+
+var names = ["Hole-in-one!", "Eagle", "Bridie", "Par", "Bogey", "Double Bogey"]
+
+function golfScore(par, strokes){
+    if(strokes ==1){
+        return names[0]
+    }
+    else if(strokes <= par - 2){
+        return names[1]
+    }
+    else if(strokes == par -1){
+        return names[2]
+    }
+    if(strokes == par){
+        return names[3]
+    }
+    if(strokes == par +1){
+        return names[4]
+    }
+    if(strokes == par + 2){
+        return names[5]
+    }
+}
+
+console.log(golfScore(5,4));
+console.log(golfScore(5,2));
+console.log(golfScore(5,1));
+console.log(golfScore(5,0));
