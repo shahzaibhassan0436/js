@@ -663,3 +663,21 @@ console.log(testEqual(7));
 }
 
 console.log(testEqual(7));
+
+// =========================================
+//Comparing with the Logical AND operator
+// =========================================
+
+function testGreaterThan(val){
+    if(val>100) {
+        return "Over 100";
+    }
+
+    if(val>10){
+        return "over 10";
+    }
+
+    return "10 or Under";
+}
+
+console.log(testGreaterThan(99));
