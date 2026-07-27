@@ -786,7 +786,7 @@ console.log(testElse(6));
 function testElseIf(val){
 
     if(val>10){
-        result = "Bigger than 5";
+        return "Bigger than 5";
     }
 
     else if(val<5){
@@ -800,3 +800,25 @@ function testElseIf(val){
     
 }
 console.log(testElseIf(6));
+
+// =========================================
+//Logical Order in If Else Statements
+// =========================================
+
+function orderMyLogical(val){
+
+    if(val<5){
+         return "Smaller than 5";
+    }
+
+    else if(val<10){
+        return "Less than 10 ";
+    } 
+
+    else {
+    return "Greatet than or equal to 10";
+    }
+    
+    
+}
+console.log(orderMyLogical(15));
