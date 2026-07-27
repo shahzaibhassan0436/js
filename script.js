@@ -383,3 +383,14 @@ console.log(ourArray);
 var ourArray = [50,60,70];
 var ourData = ourArray[1];
 console.log(ourData);
+
+
+// =========================================
+// Modify Array Data with Indexes
+// =========================================
+
+ var ourArray = [18,64,99];
+ ourArray[1]= 45;
+ console.log(ourArray);
+ 
+
