@@ -704,7 +704,7 @@ console.log(testGreaterThan(100));
 //Comparing with the Less than Operator
 // =========================================
 
-function testGLessrThan(val){
+function testLessThan(val){
     if(val<100) {
         return "Over 100";
     }
@@ -716,6 +716,22 @@ function testGLessrThan(val){
     return "10 or Under";
 }
 
-console.log(testGreaterThan(99));
+console.log(testLessThan(99));
 
+// =========================================
+//Comparing with the Less than or Equal to Operator
+// =========================================
 
+function testLessOrEqual(val){
+    if(val<=12) {
+        return "Smaller Than or Equal to 12";
+    }
+
+    if(val<=24){
+        return "Smaller Than or Equal to 24";
+    }
+
+    return " More than 24";
+}
+
+console.log(testLessOrEqual(10));
