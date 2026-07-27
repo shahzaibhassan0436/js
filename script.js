@@ -748,3 +748,15 @@ function testLogicalAnd(val){
     return "No";
 }
 console.log(testLogicalAnd(12));
+
+// =========================================
+//Comparing with the Logical OR operator
+// =========================================
+
+function testLogicalOr(val){
+    if(val<50 || val>25){
+        return "Outside"
+    }
+    return "Inside";
+}
+console.log(testLogicalOr(28));
