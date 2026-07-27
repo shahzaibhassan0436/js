@@ -449,3 +449,13 @@ function ourReusableFunction(){
 }
 
 ourReusableFunction();
+
+// =========================================
+// Passing Values to Functions with Arguments
+// =========================================
+
+function ourFunctionWithArgs(a, b){
+    console.log(a - b);
+}
+
+ourFunctionWithArgs(19, 3);
