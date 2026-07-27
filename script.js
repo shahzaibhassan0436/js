@@ -735,3 +735,16 @@ function testLessOrEqual(val){
 }
 
 console.log(testLessOrEqual(10));
+
+
+// =========================================
+//Comparing with the Logical AND operator
+// =========================================
+
+function testLogicalAnd(val){
+    if(val<=50 && val>=25){
+        return "yes"
+    }
+    return "No";
+}
+console.log(testLogicalAnd(12));
