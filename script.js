@@ -1209,3 +1209,23 @@ var ourDog = {
 };
 delete ourDog.tails;
 console.log(ourDog);
+
+// =========================================
+//Using Objects for Lookups
+// =========================================
+
+function phoneticLookup(val){
+   var result= "";
+
+var lookup ={
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "Delta": "Denver",
+    "echo": "Easy",
+    "foctrot": "Frank",
+};
+ result = lookup[val];
+ return result;
+}
+console.log(phoneticLookup('bravo'));
