@@ -400,3 +400,11 @@ console.log(ourData);
 var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13,14]];
 var myData = myArray[2][1];
 console.log(myData);
+
+// =========================================
+// Manipulate Arrays with push ()
+// =========================================
+
+var ourArray = ["Shahzaib", " Hassan", "Dev"];
+ourArray.push(["js", "Learning"]);
+console.log(ourArray); 
