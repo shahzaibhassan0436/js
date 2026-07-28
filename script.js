@@ -1586,3 +1586,21 @@ function freezeObj(){
 }
 const PI = freezeObj();
 console.log(PI);
+
+
+// =========================================
+// Arrow Functions
+// =========================================
+
+// =========================================
+// Use Arrow Functions to write Concise Anonymous Functions
+// =========================================
+
+const magic = () => new Date();
+
+// =========================================
+// Use Arrow Functions with Parameters
+// =========================================
+
+var myConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log(myConcat([1,2], [3,4,5])); 
