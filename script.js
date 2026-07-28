@@ -1626,3 +1626,16 @@ console.log(increment(5));
     };
  })();
  console.log(sum(1,2,3));
+
+ // =========================================
+//Use the Spread Operator to Evaluate Arrays In-Place
+// =========================================
+
+const arr1 = ['JAN', 'FEB', 'MARCH', 'APR', 'MAY'];
+let arr2;
+(function(){
+    arr2 = [...arr1];
+    arr1[0] = 'potato'
+    console.log(arr2);
+})();
+console.log(arr1);
