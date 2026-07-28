@@ -1294,7 +1294,7 @@ console.log(gloveBoxContents)
 // Record Collection iski sahi sy smgh nahi aee
 // =========================================
 
-var Collection = {
+/* var Collection = {
     "2548": {
         "album": "Slippery when wet",
         "artist": "Bon Jovi",
@@ -1336,3 +1336,17 @@ function updateRecords (id, prop, value){
 
 console.log(updateRecords(1239, "artist", "ABBA"));
 
+ */
+
+// =========================================
+// Iterate with while loops
+// =========================================
+var myArray = [];
+
+var i=0;
+while(i < 5){
+  
+    myArray.push(i);
+    i++;
+}
+console.log(myArray);
