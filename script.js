@@ -1639,3 +1639,27 @@ let arr2;
     console.log(arr2);
 })();
 console.log(arr1);
+
+ // =========================================
+//Use Destructuring Assignment to Assign Variable for  Objects. 
+// =========================================
+
+var voxel = {x:3.6, y:7.4, z:6.54};
+
+var x = voxel.x;
+var x = voxel.y;
+var x = voxel.z;
+
+var {x:a, y:b, z:c} = voxel;
+
+var AVG_TEMPRETURES = {
+    today: 77.5,
+    tomorrow: 79
+};
+
+function getTempOfTmrw(avgTempretures){
+    "use stricts";
+    var {tomorrow: tmepOfTomorrow} = avgTempretures;
+    
+}
+console.log(getTempOfTmrw(AVG_TEMPRETURES));
