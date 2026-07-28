@@ -1252,7 +1252,7 @@ console.log(checkObj(name));
 
 // =========================================
 //Manipulating Complex Objects
-// =========================================\
+// =========================================
 
 
 var myMusic = [
@@ -1270,3 +1270,22 @@ var myMusic = [
         "formats":["a"]
     }
 ];
+
+// =========================================
+//Accessing Nested Objects
+// =========================================
+
+var myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk":"jack"
+        }
+    }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents)
