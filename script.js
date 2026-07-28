@@ -1406,7 +1406,7 @@ for (var i = 0; i <ourArr.length; i++){
 console.log(ourTotal);
 
 // =========================================
-// Nesting For loop 
+// Nesting For loop  thora difficult tha
 // =========================================
 
 function multiplyAll(arr){
@@ -1424,3 +1424,18 @@ function multiplyAll(arr){
 
 var product= multiplyAll([[1,2],[3,4],[5,6,7]]);
 console.log(product);
+
+// =========================================
+// Do While Loop
+// =========================================
+
+var myArray = []
+var i = 10;
+
+do{
+    myArray.push(i);
+    i++
+}
+while(i<5)
+     
+console.log(i, myArray);
