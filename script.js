@@ -1361,4 +1361,23 @@ var ourArray= []
 for( var i = 0 ; i<9; i++){
     ourArray.push(i);
 }
-console.log(ourArray)
+console.log(ourArray);
+
+// =========================================
+// Iterate Odd/Even Numbers with a For loop
+// =========================================
+
+
+var ourArray= []
+
+for( var i = 0 ; i<10; i+=2){
+    ourArray.push(i);
+}
+console.log(ourArray);
+
+var ourArray= []
+
+for( var i = 1 ; i<10; i+=2){
+    ourArray.push(i);
+}
+console.log(ourArray);
