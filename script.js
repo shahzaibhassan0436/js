@@ -1460,3 +1460,14 @@ function randomWholeNum(){
     return Math.floor(Math.random() *10);
 }
 console.log(randomWholeNum());
+
+// =========================================
+// Use the paresInt Function  string---> Integer
+// =========================================
+
+function convertToInteger(str){
+    return parseInt(str);
+
+}
+console.log(convertToInteger("56"));
+
