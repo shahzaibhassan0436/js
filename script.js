@@ -1291,19 +1291,48 @@ var gloveBoxContents = myStorage.car.inside["glove box"];
 console.log(gloveBoxContents)
 
 // =========================================
-//Accessing Nested Arrays
+// Record Collection iski sahi sy smgh nahi aee
 // =========================================
 
-var myPlants = [
-    {
-        type: "flowers",
-        list: ["rose","tulip", "dandlion"]
+var Collection = {
+    "2548": {
+        "album": "Slippery when wet",
+        "artist": "Bon Jovi",
+        "tracks": ["let it rock", "You give love a bad name"]
     },
+    "2000": {
+        "album": "Slippery when ",
+        "artist": "Bon Jovi",
+        "tracks": ["let it rock", "You give love a bad name"]
+    },
+    "1239": {
+        "album": "Slippery ",
+        "artist": "Bon Jovi",
+        "tracks": ["let it rock", "You give love a bad name"]
+    },
+    "9021": {
+        "album": "Slippery  wet",
+        "artist": "Bon Jovi",
+        "tracks": ["let it rock", "You give love a bad name"]
+    },
+} 
 
-    {
-        type: "trees",
-        list: ["fir", "pine", "birch"]
+var collectionCopy = JSON.parse(JSON.stringify(Collection));
+function updateRecords (id, prop, value){
+    if(value === ""){
+        delete collection[id][prop];
     }
-];
-var secondTree = myPlants[1].list[1];
-console.log(secondTree);
+
+    else if (prop === "tracks"){
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    }
+    else{
+        collection[id][prop]=value;
+    }
+
+    return collection;
+}
+
+console.log(updateRecords(1239, "artist", "ABBA"));
+
