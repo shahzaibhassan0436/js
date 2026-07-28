@@ -1480,3 +1480,20 @@ function convertToInteger(str){
 
 }
 console.log(convertToInteger("10011"));
+
+// =========================================
+// Use the Conditional (Ternary) Operator
+// =========================================
+ 
+function checkEqual(a, b){
+    return a === b ? true : false;
+}
+console.log(checkEqual(1,2));
+
+// =========================================
+//Example
+// =========================================
+ function checkSign(num){
+    return num > 0 ? "Positive": num<0? "Negative" : "zero";
+ }
+ console.log(checkSign(10));
