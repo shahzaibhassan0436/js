@@ -1497,3 +1497,38 @@ console.log(checkEqual(1,2));
     return num > 0 ? "Positive": num<0? "Negative" : "zero";
  }
  console.log(checkSign(10));
+
+// =========================================
+// Difference b/t Var and Let Keywords
+// =========================================
+
+// let sirf {}  mein limited hota hai or same name nahi repeat kr skty
+
+//var repeat bhi hu skta hai or har jagha globaly use kr skty hein.
+
+function checkScope(){
+
+    "use strict";
+    var i = "function scope";
+    if(true){
+        i = "block scope";
+        console.log("Block scope i is: ",i);
+    }
+    console.log("Function scope i is: ",i);
+    return i;
+}
+console.log(checkScope());
+
+
+function checkScope(){
+
+    "use strict";
+    let i = "function scope";
+    if(true){
+       let i = "block scope";
+        console.log("Block scope i is: ",i);
+    }
+    console.log("Function scope i is: ",i);
+    return i;
+}
+console.log(checkScope());
