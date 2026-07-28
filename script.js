@@ -1471,3 +1471,12 @@ function convertToInteger(str){
 }
 console.log(convertToInteger("56"));
 
+// =========================================
+// Use the paresInt Function  with a Radix(Binary Conversion)
+// =========================================
+ 
+function convertToInteger(str){
+    return parseInt(str, 2);
+
+}
+console.log(convertToInteger("10011"));
