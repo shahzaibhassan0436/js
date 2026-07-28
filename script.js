@@ -1439,3 +1439,12 @@ do{
 while(i<5)
      
 console.log(i, myArray);
+
+// =========================================
+// Generate Random Fractions
+// =========================================
+
+function randomFraction(){
+    return Math.random();
+}
+console.log(randomFraction());
