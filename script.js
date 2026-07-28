@@ -1641,7 +1641,7 @@ let arr2;
 console.log(arr1);
 
  // =========================================
-//Use Destructuring Assignment to Assign Variable for  Objects. 
+//Use Destructuring Assignment to Assign Variable for  Objects. iski smgh nhi ae
 // =========================================
 
 var voxel = {x:3.6, y:7.4, z:6.54};
@@ -1663,3 +1663,22 @@ function getTempOfTmrw(avgTempretures){
     
 }
 console.log(getTempOfTmrw(AVG_TEMPRETURES));
+
+ // =========================================
+//Destructuring Assignment with Nested Objects
+// =========================================
+
+ // =========================================
+//Use Destructuring Assignment to Assign Variables from Arrays
+// =========================================
+
+const [z,x, ,y]=[1,2,3,4,5,6];
+console.log(z,x,y);
+
+let a=8,b=6;
+(() => {
+    "use strict";
+    [a, b] = [b, a]
+})();
+console.log(a);
+console.log(b);
