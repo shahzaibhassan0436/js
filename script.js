@@ -1350,3 +1350,15 @@ while(i < 5){
     i++;
 }
 console.log(myArray);
+
+// =========================================
+// Iterate with For loop
+// =========================================
+
+
+var ourArray= []
+
+for( var i = 0 ; i<9; i++){
+    ourArray.push(i);
+}
+console.log(ourArray)
