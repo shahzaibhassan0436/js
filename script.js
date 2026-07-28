@@ -1392,3 +1392,15 @@ for( var i = 10 ; i>0; i-=2){
     ourArray.push(i);
 }
 console.log(ourArray);
+
+// =========================================
+// Iterate Through an Array with a For loop
+// =========================================
+
+var ourArr = [9, 10, 11, 12];
+var ourTotal = 0;
+
+for (var i = 0; i <ourArr.length; i++){
+    ourTotal +=ourArr[i];
+}
+console.log(ourTotal);
