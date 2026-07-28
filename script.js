@@ -1532,3 +1532,18 @@ function checkScope(){
     return i;
 }
 console.log(checkScope());
+
+// =========================================
+// Const Keyword Read-Only Variable
+// =========================================
+
+function printManyTimes(str){
+    "use strict";
+    const SENTENCE = str + "is cool!";
+
+    for(let i=0; i<str.length; i++){
+        console.log(SENTENCE);
+    }
+}
+printManyTimes("FreeCodeCamp");
+
