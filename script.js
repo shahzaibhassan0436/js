@@ -1733,3 +1733,11 @@ const person = {
 const greeting = 'Hello, my name is ${person.name}! I am ${person.age} years old. ';
 
 console.log(greeting);
+
+// =========================================
+//Write Concise Object Literal Declarations Using Simple Fields
+// =========================================
+
+const createPerson = (name, age, gender)=> ({name, age, gender});
+console.log(createPerson("Zodiac Hasbro", 56, "male"));
+
