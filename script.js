@@ -1686,9 +1686,7 @@ console.log(b);
 */
 
  // =========================================
-//Use Destructuring Assignment with Rest Operator
-
-iski achy sy smgh nhi aee
+//Use Destructuring Assignment with Rest Operator iski achy sy smgh nhi aee
 // =========================================
 
 const source = [1,2,3,4,5,6,7,8,9];
@@ -1700,3 +1698,25 @@ function removeFirstTwo(list)
 const arr = removeFirstTwo(source);
 console.log(arr);
 console.log(source);
+
+ // =========================================
+//Use Destructuring Assignment to Pass an Object as a Function's Parameters                        iski bhi achy sy smgh nhi aee
+// =========================================
+
+const stats = {
+
+    max: 56.78,
+    standard_deviation: 4.34,
+    median: 34.54,
+    min: -0.75,
+    average: 35.85
+};
+
+const half = (function(){
+
+    return function half({max, min}){
+        return (max + min) / 2.0;
+    };
+})();
+console.log(stats);
+console.log(half(stats));
