@@ -1804,7 +1804,14 @@ temp =  thermos.tempretures;
 // =========================================
 //Difference Between Import and Require
 // =========================================
-/* import { capitalizeString } from "./string_function";
+/* 
+import { capitalizeString } from "./string_function";
 
 const cap = capitalizeString("hello!");
-console.log(cap); */
+console.log(cap); 
+*/
+
+
+// =========================================
+//Use export to Reuse a Code Block
+// =========================================
