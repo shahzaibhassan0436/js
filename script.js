@@ -1756,7 +1756,7 @@ bicycle.setGear(3);
 console.log(bicycle.gear);
 
 // =========================================
-//Use class Syntax to Define a Contructor Function
+//Use class Syntax to Define a Contructor Function full clear nhi hua thora sa confused hun
 // =========================================
 
 class SpaceShuttle{
@@ -1766,3 +1766,34 @@ class SpaceShuttle{
 }
 var zeus = new SpaceShuttle('Jupiter');
 console.log(zeus.targetPlanet)
+
+// =========================================
+//Use getters and setters to Control Access to an Object
+
+
+//iski output nhi aee
+// =========================================
+
+function makeClass(){
+class Thermostat {
+    constructor(temp){
+        this._temp =5/9 * (temp -32);
+    }
+
+    get tempretures(){
+        return this.temp;
+    }
+
+    set tempretures(updatedTemp){
+
+        this._temp = updatedTemp;
+    }
+}
+return Thermostat;
+}
+
+const Thermostat = makeClass();
+const thermos = new Thermostat();
+let temp = thermos.tempretures;
+thermos.temprature = 26;
+temp =  thermos.tempretures;
