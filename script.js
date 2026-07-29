@@ -2,6 +2,8 @@
 // Storing Values with the Assignment Operator
 // =========================================
 
+
+
 var a;
 var b = 2;
 
@@ -1797,3 +1799,12 @@ const thermos = new Thermostat();
 let temp = thermos.tempretures;
 thermos.temprature = 26;
 temp =  thermos.tempretures;
+
+
+// =========================================
+//Difference Between Import and Require
+// =========================================
+/* import { capitalizeString } from "./string_function";
+
+const cap = capitalizeString("hello!");
+console.log(cap); */
