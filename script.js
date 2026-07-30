@@ -1789,4 +1789,8 @@ let temp = thermos.temperature;
 thermos.temperature = 26;
 temp =  thermos.temperature;
 console.log(temp);
+console.log("dog", "big", "ran", "quickly");
 
+ // =========================================
+// Word Blanks
+// =========================================
