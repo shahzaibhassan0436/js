@@ -24,7 +24,7 @@ var c = "I am a";
 
 a = a + 1;
 b = b + 5;
-c = c + "String!";
+c = c + " String!";
 
 console.log(a);
 console.log(b);
@@ -1071,14 +1071,9 @@ console.log(abTest(2,2));
 console.log(abTest(2,-2));
 
 // =========================================
-//Counting Cards  iski smgh nhi aee
+//Counting Cards  
 // =========================================
 
-
-// =========================================
-//iski smgh nhi aee
-// =========================================
-var count = 0;
 
 function cc(card){
 
@@ -1250,7 +1245,7 @@ function checkObj(checkProp){
          }
 }
 console.log(checkObj('name'));
-console.log(checkObj(name));
+//console.log(checkObj(name));
 
 // =========================================
 //Manipulating Complex Objects
@@ -1291,12 +1286,11 @@ var myStorage = {
 
 var gloveBoxContents = myStorage.car.inside["glove box"];
 console.log(gloveBoxContents)
-
 // =========================================
-// Record Collection iski sahi sy smgh nahi aee
+// Record Collection
 // =========================================
 
-/* var Collection = {
+var collection = {
     "2548": {
         "album": "Slippery when wet",
         "artist": "Bon Jovi",
@@ -1319,7 +1313,7 @@ console.log(gloveBoxContents)
     },
 } 
 
-var collectionCopy = JSON.parse(JSON.stringify(Collection));
+var collectionCopy = JSON.parse(JSON.stringify(collection));
 function updateRecords (id, prop, value){
     if(value === ""){
         delete collection[id][prop];
@@ -1335,10 +1329,9 @@ function updateRecords (id, prop, value){
 
     return collection;
 }
-
-console.log(updateRecords(1239, "artist", "ABBA"));
-
- */
+console.log(collection["2548"]["album"])
+console.log(updateRecords(2000, "album", "ABBA"));
+console.log(updateRecords(2548, "album", "ABBA"));
 
 // =========================================
 // Iterate with while loops
@@ -1488,7 +1481,7 @@ console.log(convertToInteger("10011"));
 // =========================================
  
 function checkEqual(a, b){
-    return a === b ? true : false;
+    return a === b ;
 }
 console.log(checkEqual(1,2));
 
@@ -1541,7 +1534,7 @@ console.log(checkScope());
 
 function printManyTimes(str){
     "use strict";
-    const SENTENCE = str + "is cool!";
+    const SENTENCE = str + " is cool!";
 
     for(let i=0; i<str.length; i++){
         console.log(SENTENCE);
@@ -1579,7 +1572,7 @@ function freezeObj(){
     Object.freeze(MATH_CONSTANTS);
 
     try{
-        MATH_CONSTANT.PI = 91;
+        MATH_CONSTANTS.PI = 91;
     }
     catch(ex){
         console.log(ex);
@@ -1643,28 +1636,28 @@ let arr2;
 console.log(arr1);
 
  // =========================================
-//Use Destructuring Assignment to Assign Variable for  Objects. iski smgh nhi ae
+//Use Destructuring Assignment to Assign Variable for  Objects. 
 // =========================================
 
-var voxel = {x:3.6, y:7.4, z:6.54};
-
+var voxel = {x: 3.6, y: 7.4, z: 6.54};
+"use stricts";
 var x = voxel.x;
-var x = voxel.y;
-var x = voxel.z;
+var y = voxel.y;
+var z = voxel.z;
 
 var {x:a, y:b, z:c} = voxel;
 
-var AVG_TEMPRETURES = {
+var AVG_TEMPERATURES = {
     today: 77.5,
     tomorrow: 79
 };
 
-function getTempOfTmrw(avgTempretures){
-    "use stricts";
-    var {tomorrow: tmepOfTomorrow} = avgTempretures;
-    
+function getTempOfTmrw(avgTemperatures) {
+    var {tomorrow: tempOfTomorrow} = avgTemperatures;
+    return tempOfTomorrow;
 }
-console.log(getTempOfTmrw(AVG_TEMPRETURES));
+
+console.log(getTempOfTmrw(AVG_TEMPERATURES));
 
  // =========================================
 //Destructuring Assignment with Nested Objects
@@ -1688,21 +1681,17 @@ console.log(b);
 */
 
  // =========================================
-//Use Destructuring Assignment with Rest Operator iski achy sy smgh nhi aee
+//Use Destructuring Assignment with Rest Operator 
 // =========================================
 
 const source = [1,2,3,4,5,6,7,8,9];
-function removeFirstTwo(list)
-{
-    const[ , , ...arr]= list;
-    return arr;
+const removeFirstTwo = () => {
+    return source.slice(2);
 }
-const arr = removeFirstTwo(source);
-console.log(arr);
-console.log(source);
+console.log(removeFirstTwo());
 
  // =========================================
-//Use Destructuring Assignment to Pass an Object as a Function's Parameters                        iski bhi achy sy smgh nhi aee
+//Use Destructuring Assignment to Pass an Object as a Function's Parameters                        
 // =========================================
 
 const stats = {
@@ -1711,16 +1700,20 @@ const stats = {
     standard_deviation: 4.34,
     median: 34.54,
     min: -0.75,
-    average: 35.85
+    average: 35.85,
+    values: { min: 10, max: 5, 
+        subject: { eng : 23 , maths :45
+
+        }
+    }
+
 };
 
-const half = (function(){
+const half =function(){
 
-    return function half({max, min}){
-        return (max + min) / 2.0;
-    };
-})();
-console.log(stats);
+        return (stats.values.subject.eng + stats.values.subject.maths ) / 2.0;
+ 
+};
 console.log(half(stats));
 
 // =========================================
@@ -1758,7 +1751,7 @@ bicycle.setGear(3);
 console.log(bicycle.gear);
 
 // =========================================
-//Use class Syntax to Define a Contructor Function full clear nhi hua thora sa confused hun
+//Use class Syntax to Define a Contructor Function 
 // =========================================
 
 class SpaceShuttle{
@@ -1771,47 +1764,29 @@ console.log(zeus.targetPlanet)
 
 // =========================================
 //Use getters and setters to Control Access to an Object
-
-
-//iski output nhi aee
 // =========================================
 
 function makeClass(){
-class Thermostat {
+ class Thermostat {
     constructor(temp){
         this._temp =5/9 * (temp -32);
     }
 
-    get tempretures(){
-        return this.temp;
+    get temperature(){
+        return this._temp;
     }
 
-    set tempretures(updatedTemp){
-
-        this._temp = updatedTemp;
+    set temperature(celcius){
+        this._temp = celcius;
     }
 }
-return Thermostat;
+    return Thermostat;
 }
 
 const Thermostat = makeClass();
-const thermos = new Thermostat();
-let temp = thermos.tempretures;
-thermos.temprature = 26;
-temp =  thermos.tempretures;
+const thermos = new Thermostat(23);
+let temp = thermos.temperature;
+thermos.temperature = 26;
+temp =  thermos.temperature;
+console.log(temp);
 
-
-// =========================================
-//Difference Between Import and Require
-// =========================================
-/* 
-import { capitalizeString } from "./string_function";
-
-const cap = capitalizeString("hello!");
-console.log(cap); 
-*/
-
-
-// =========================================
-//Use export to Reuse a Code Block
-// =========================================
